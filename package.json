@@ -1,0 +1,17 @@
+{
+  "name": "@fractal-proficiency/rx-node",
+  "version": "1.0.0",
+  "author": "Rob Lee <rob@fractalproficiency.com>",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "lerna": "lerna"
+  },
+  "workspaces": [
+    "./packages"
+  ],
+  "devDependencies": {
+    "lerna": "^2.4.0",
+    "ts-node": "^3.3.0"
+  }
+}

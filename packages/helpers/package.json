@@ -1,0 +1,26 @@
+{
+  "name": "@fractal-proficiency/helpers",
+  "version": "0.0.1-alpha.1",
+  "author": "Rob Lee <rob@fractalproficiency.com>",
+  "description": "Miscellaneous common helpers for the @fractal-proficiency packages",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "files": [
+      "./dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.77",
+    "@types/node": "^8.0.34",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.3"
+  }
+}
